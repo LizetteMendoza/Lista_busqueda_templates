@@ -1,0 +1,31 @@
+# depslib dependency file v1.0
+1602439596 source:c:\users\hogar\documents\c++\lista plantillas\listatemplates\main.cpp
+	<iostream>
+	"lista.h"
+	"cancion.h"
+	"menu.h"
+
+1602384956 source:c:\users\hogar\documents\c++\lista plantillas\listatemplates\lista.cpp
+
+1602453989 source:c:\users\hogar\documents\c++\lista plantillas\listatemplates\cancion.cpp
+	<iostream>
+	"cancion.h"
+	<iostream>
+
+1602447418 c:\users\hogar\documents\c++\lista plantillas\listatemplates\cancion.h
+
+1602453989 c:\users\hogar\documents\c++\lista plantillas\listatemplates\lista.h
+	"excepciones.h"
+
+1602385529 c:\users\hogar\documents\c++\lista plantillas\listatemplates\excepciones.h
+	<exception>
+	<string>
+
+1602454178 source:c:\users\hogar\documents\c++\lista plantillas\listatemplates\menu.cpp
+	"menu.h"
+
+1602438974 c:\users\hogar\documents\c++\lista plantillas\listatemplates\menu.h
+	<iostream>
+	"lista.h"
+	"cancion.h"
+
