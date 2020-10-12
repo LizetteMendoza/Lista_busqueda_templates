@@ -34,8 +34,8 @@ void Menu::userInterface(List<Cancion>& myList){
 
    switch(opc){
 
-       case 1:  myList.deletAll(); //La lista se inicializa en el contructor pero si se quisiera usar un metodo deletAll harìa la misma funcion
-                cout<<endl<<"La lista está inicializada";
+       case 1:  myList.deletAll(); //La lista se inicializa en el contructor pero si se quisiera usar un metodo deletAll harï¿½a la misma funcion
+                cout<<endl<<"La lista estï¿½ inicializada";
                 break;
 
        case 2:  if(myList.isEmpty()==1){
@@ -63,7 +63,7 @@ void Menu::userInterface(List<Cancion>& myList){
                     miCancion.setPosicion(atoi(myStr.c_str()));
                     myList.insertData(myList.getFirtsPos(), miCancion);
 
-                    cout<<endl<<"Do you wan to keep adding song? y/n: ";
+                    cout<<endl<<"Quieres seguir agregando? s/n: ";
                     cin>>op;
 
             }while(op!= 'n');
@@ -111,7 +111,7 @@ void Menu::userInterface(List<Cancion>& myList){
 
                 cout<<endl<<endl<<"La cancion "<<myStr<<" ";
                 fflush(stdin);
-                if(pos==1){
+                if(pos==-1){
                     cout<<"No se encuentra en la lista";
                 }
                 else{
