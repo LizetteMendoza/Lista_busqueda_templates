@@ -76,8 +76,7 @@ Cancion& Cancion::operator = (const Cancion&c){
 
 bool Cancion::operator==(const Cancion& c) const{
 
-   if(nombre == c.nombre){return 1; } //el error esta aqui, pero aun no se que es o porque
-   //if (interprete == c.interprete){return 1; }
-    else return 0;
+   return nombre == c.nombre //el error esta aqui, pero aun no se que es o porque
+   or (interprete == c.interprete);
 }
 
